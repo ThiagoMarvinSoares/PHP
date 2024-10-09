@@ -1,0 +1,23 @@
+{
+    "name": "tsoares/iniciando_com_php_oo",
+    "description": "Curso de PHP OO",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thiago Marvin"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "slim/slim": "^4.0",
+        "slim/psr7": "dev-master",
+        "nyholm/psr7": "^1.8@dev",
+        "nyholm/psr7-server": "dev-master",
+        "guzzlehttp/psr7": "^2",
+        "laminas/laminas-diactoros": "3.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {"App\\": "app/","Config\\": "config/"}
+    }
+}
